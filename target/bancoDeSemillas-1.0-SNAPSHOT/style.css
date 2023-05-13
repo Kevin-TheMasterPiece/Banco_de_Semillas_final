@@ -1,0 +1,226 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12/05/2023, 06:08:50 PM
+    Author     : WORKING
+*/
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+div#titulo{
+    position: relative;
+    height: 180px;
+    background: rgb(255, 255, 255); 
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px black;
+}
+div#tit{
+    position: absolute;
+    height: 150px;
+    width: 365px;
+    left: 180px;
+    top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div#tit h1{
+    position: absolute;
+    font-family: 'Kaushan Script', cursive;
+    color: #68d953;
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 0px 5px 8px rgb(12, 12, 12);
+}
+img#imagen{
+    width: 210px;
+    height: 180px;
+}
+img#imag1{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    right: 10px;    
+}
+div#buton1{
+    background-color: #87CEEB;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 70px;
+    right: 180px;
+    border-radius: 7px 7px 7px 7px;
+    border: 0;
+}
+a#boton1{
+    width: 150px;
+    height: 38px;
+    position: absolute;
+    color: #141414;
+    background-color: #68d953;
+    border-radius: 5px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+a#boton1:hover {
+    background-color: #41ff11;
+  }
+div#i2{
+    position: relative;
+    height: 770px;
+    width: auto;
+    background:  #70707093; 
+    margin: 0px auto;
+    background: url(https://static.wixstatic.com/media/40c62b_0260aab0483a42668a30955997896765~mv2.png) repeat;
+} 
+div#arb2{
+    height: 610px;
+    width: 505px;
+    position: absolute;
+    top: 60px;
+    left: 155px;
+    background-color: #5CE1E6;
+    background-image: url(https://pasturastropicales.com/wp-content/uploads/2023/01/semillas-de-pasto-brachiaria-decumbens.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+div#info{
+    width: 545px;
+    height: 610px;
+    position: absolute;
+    top: 60px;
+    left: 660px;
+    background-color: #31403f;
+}
+h3{
+    width: 545px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    padding-top: 27px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px; 
+    font-weight: bold;
+    color: #fff;
+}
+p#tex2{
+    width: 490px;
+    height: 400px;
+    position: absolute;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    text-align: center;
+    padding-top: 210px;
+    padding-left: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #fff;
+}
+img#hoj1{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 85px;
+    left: 30px;
+}
+img#hoj2{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 85px;
+    right: 30px;
+}
+div#datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 530px;
+    left: 223px;
+    height: 50px;
+    width: 120px;
+    background-color: rgba(128, 128, 128, 0);
+}
+div#i1{
+    position: relative;
+    height: 770px;
+    width: auto;
+    background: rgba(255, 255, 255, 0); 
+    margin: 0px auto;
+    background: url(https://static.wixstatic.com/media/40c62b_252111cc982a405a81dbe0d467d9351a~mv2.png) repeat;
+}
+div#text{
+    top: 80px;
+    left: 155px;
+    width: 505px;
+    height: 610px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+p#tex1{
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 120px;
+    margin-left: 5px;
+    font-size: 66px;
+    text-align: center;
+    width: 495px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+div#arb3{
+    width: 545px;
+    height: 610px;
+    position: absolute;
+    top: 80px;
+    left: 660px;
+    background-color: #5CE1E6;
+    background-image: url(https://trucosdejardineria.com/wp-content/uploads/2019/10/planting-a-tree.png.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid black;
+}
+img#arb4{
+    width: 505px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+img#arb5{
+    width: 505px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    transform: rotate(180deg);
+}
+.ins{
+    width: 300px;
+     margin: 0 10px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px #ddd;
+     margin-left: 430px;
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.mycompany.bancodesemillas"},{"l":"com.mycompany.bancodesemillas.resources"},{"l":"CONTROLADOR"},{"l":"MODELO"}]
